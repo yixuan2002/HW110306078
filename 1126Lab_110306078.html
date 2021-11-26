@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+    <style type="text/css">
+    	body{font-family: arial, helvetica, sans-serif;}
+    	a.nodec{text-decoration: none;}
+    	a:hover{text-decoration: unferline;}
+    	li{font-weight: bold;}
+    	li em{text-decoration: line-through;}
+    	h1, em{text-decoration: underline;}
+    	ul{margin-left: 20px;}
+    	span{color: green; border: 1px solid black;}
+    	.extra span{color: inherit;}
+    </style>
+<body>
+	<h1>Shopping list for Tuesday:</h1>
+	<em>Go to the</em>
+	   <a class="nodec" href="http://google.com">
+	   	  Supermarket</a>
+	<ul>
+		<li>Bread
+			<ul>
+				<li>White bread</li>
+				<li>Rye bread</li>
+			</ul>
+		</li>
+		<li>Vegetable
+			<ul>
+				<li>pak choy</li>
+				<li>en choy</li>
+				<li>water spinach</li>
+			</ul>
+		</li>
+		<li>Pizza <em>with pineapples</em></li>
+	</ul>
+	<p>
+	</p>
+	<div>Here is <span>a span element</span> which is blue, as span elements are set to be.</div>
+	<div class="extra" style="color:yellow;">Here is <span>a span element</span> which is yellow, because it inherits from its parent.</div>
+	<div style="color:pink;">Here is <span>a span element</span> which is blue, as span elements are set to be.</div>
+
+</body>
+</html>
